@@ -1,6 +1,6 @@
 <template>
   <div class="relative bg-gray-50 overflow-hidden">
-    <div class="relative pt-6 pb-12 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32">
+    <div class="relative pt-6 pb-12 sm:pb-16">
       <div class="max-w-screen-xl mx-auto px-4 sm:px-6">
         <nav
           class="relative flex items-center justify-between sm:h-10 md:justify-center"
@@ -35,26 +35,26 @@
             </div>
           </div>
           <div class="hidden md:flex md:space-x-10">
-            <a
-              href="#"
+            <nuxt-link
+              to="/"
               class="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
-              >Home</a
+              >Home</nuxt-link
             >
-            <a
-              href="#"
+            <nuxt-link
+              to="/portfolio"
               class="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
-              >Portfolio</a
+              >Portfolio</nuxt-link
             >
-            <a
-              href="#"
+            <nuxt-link
+              to="/blog"
               class="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
-              >Blog</a
-            >
-            <a
-              href="#"
+              >Blog</nuxt-link
+            ><nuxt-link
               class="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
-              >Contact</a
+              to="/contact"
             >
+              Contact
+            </nuxt-link>
           </div>
         </nav>
       </div>
