@@ -1,22 +1,32 @@
 <template>
-  <div class="xl:container mx-auto">
-    <div class="flex items-center flex-col space-y-1">
+  <div class="xl:container mx-auto flex">
+    <div class="flex items-center justify-center flex-grow space-x-5">
+      <div class="flex items-center flex-col space-y-1">
+        <p>Hi! My name is</p>
+        <p class="text-primary-500 text-4xl align-middle font-bold">
+          Austin Hackett
+        </p>
+        <p class="text-2xl">
+          A
+          <span class="text-primary-500 font-bold"
+            >Fullstack Web Developer</span
+          >
+        </p>
+        <p>
+          building applications with
+          <span class="text-primary-500 font-bold">Javascript</span>
+          and
+          <span class="text-primary-500 font-bold">Python</span>
+        </p>
+        <a class="bg-green-500 hover:bg-purple-700 text-white py-2 px-4 rounded"
+          >See My Work</a
+        >
+      </div>
       <img
-        class="h-56 rounded-full object-center"
+        class="object-scale-down h-56 rounded-full"
         src="~/assets/profile.jpg"
         alt="My ugly mug"
       />
-      <p>Hi! My name is</p>
-      <p class="text-4xl align-middle">Austin Hackett</p>
-      <p class="text-2xl">
-        A
-        <span class="font-bold">Fullstack Web Developer</span> building
-        applications with <span class="font-bold">Javascript</span> and
-        <span class="font-bold">Python</span>
-      </p>
-      <a class="bg-purple-500 hover:bg-purple-700 text-white py-2 px-4 rounded"
-        >See My Work</a
-      >
     </div>
   </div>
 </template>
