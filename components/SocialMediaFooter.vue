@@ -2,7 +2,10 @@
   <div class="bg-white">
     <div class="mx-auto py-2 px-4 overflow-hidden sm:px-6 lg:px-8">
       <div class="mt-8 flex justify-center">
-        <a href="#" class="text-primary-500 hover:text-gray-500">
+        <a
+          href="https://facebook.com/ahackit"
+          class="text-primary-500 hover:text-gray-500"
+        >
           <span class="sr-only">Facebook</span>
           <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
             <path
@@ -12,7 +15,10 @@
             />
           </svg>
         </a>
-        <a href="#" class="ml-6 text-primary-500 hover:text-gray-500">
+        <a
+          href="https://instagram.com/ahackit"
+          class="ml-6 text-primary-500 hover:text-gray-500"
+        >
           <span class="sr-only">Instagram</span>
           <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
             <path
@@ -22,7 +28,10 @@
             />
           </svg>
         </a>
-        <a href="#" class="ml-6 text-primary-500 hover:text-gray-500">
+        <a
+          href="https://twitter.com/ahackit"
+          class="ml-6 text-primary-500 hover:text-gray-500"
+        >
           <span class="sr-only">Twitter</span>
           <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
             <path
@@ -30,7 +39,10 @@
             />
           </svg>
         </a>
-        <a href="#" class="ml-6 text-primary-500 hover:text-gray-500">
+        <a
+          href="https://github.com/ahackit"
+          class="ml-6 text-primary-500 hover:text-gray-500"
+        >
           <span class="sr-only">GitHub</span>
           <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
             <path
