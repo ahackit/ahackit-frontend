@@ -7,13 +7,13 @@
           Austin Hackett
         </p>
         <p class="text-2xl">
-          A
+          I'm a
           <span class="text-primary-500 font-bold"
             >Fullstack Web Developer</span
           >
         </p>
         <p>
-          building applications with
+          currently building applications with
           <span class="text-primary-500 font-bold">Javascript</span>
           and
           <span class="text-primary-500 font-bold">Python</span>
