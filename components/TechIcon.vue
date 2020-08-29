@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col items-center h-10 w-10">
-    <p class="font-bold">{{ techTitle }}</p>
+    <!-- <p class="font-bold">{{ techTitle }}</p> -->
     <img :src="imgLocation" alt="Django Icon" />
   </div>
 </template>

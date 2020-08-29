@@ -1,7 +1,6 @@
 <template>
   <div class="container mx-auto">
-    <h1 class="text-center">Technologies I'm currently using</h1>
-    <div class="flex space-x-8 justify-center">
+    <!-- <div class="flex space-x-8 justify-center">
       <TechIcon tech-title="Django" img-src="djangoicon"></TechIcon>
       <TechIcon tech-title="Vue" img-src="vueicon"></TechIcon>
       <TechIcon tech-title="Nuxt" img-src="nuxticon"></TechIcon>
@@ -10,27 +9,26 @@
       <TechIcon tech-title="Docker" img-src="dockericon"></TechIcon>
       <TechIcon tech-title="Kubernetes" img-src="k8icon"></TechIcon>
       <TechIcon tech-title="AWS" img-src="awsicon"></TechIcon>
-    </div>
-    <h1 class="mt-12 text-center">Web Applications</h1>
+    </div> -->
+    <h1 class="text-2xl text-center">Web Applications</h1>
     <div class="mt-12 grid gap-5 max-w-lg mx-auto lg:grid-cols-3 lg:max-w-none">
       <Card></Card>
       <Card></Card>
       <Card></Card>
     </div>
-    <h1 class="mt-12 text-center">Tools</h1>
+    <h1 class="mt-12 text-2xl text-center">Tools</h1>
     <div class="mt-12 grid gap-5 max-w-lg mx-auto lg:grid-cols-3 lg:max-w-none">
       <Card></Card>
-      <Card></Card>
-      <Card></Card>
+      <!-- <Card></Card>
+      <Card></Card> -->
     </div>
   </div>
 </template>
 
 <script>
-import TechIcon from '@/components/TechIcon'
 import Card from '@/components/Card'
 export default {
-  components: { TechIcon, Card },
+  components: { Card },
 }
 </script>
 
