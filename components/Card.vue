@@ -23,20 +23,19 @@
           </p>
         </a>
       </div>
-      <div class="mt-6 flex items-center">
-        <div class="flex text-sm leading-5 text-gray-500">
-          <time datetime="2020-03-16">Mar 16, 2020</time>
-          <span class="mx-1">&middot;</span>
-          <span>6 min read</span>
-        </div>
+      <h1 class="mt-6 font-medium">Technologies</h1>
+      <div class="flex items-center">
+        <TechIcon tech-title="Django" img-src="djangoicon"></TechIcon>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import TechIcon from '@/components/TechIcon'
 export default {
   name: 'Card',
+  components: [TechIcon],
 }
 </script>
 

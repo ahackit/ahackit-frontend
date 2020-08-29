@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white">
+  <div class="mt-2 bg-white">
     <div class="mx-auto py-2 px-4 overflow-hidden sm:px-6 lg:px-8">
       <div class="mt-8 flex justify-center">
         <a
