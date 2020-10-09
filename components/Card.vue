@@ -9,9 +9,6 @@
     </div>
     <div class="flex-1 bg-white p-6 flex flex-col justify-between">
       <div class="flex-1">
-        <!-- <p class="text-sm leading-5 font-medium text-indigo-600">
-          <a href="#" class="hover:underline">Blog</a>
-        </p> -->
         <a href="#" class="block">
           <h3 class="mt-2 text-xl leading-7 font-semibold text-primary-500">
             Boost your conversion rate
