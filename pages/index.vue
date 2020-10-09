@@ -1,7 +1,7 @@
 <template>
   <div class="xl:container mx-auto flex">
     <div class="flex items-center justify-center flex-grow space-x-5">
-      <div class="flex items-center flex-col space-y-1">
+      <div class="flex flex-col space-y-1">
         <p>Hi! My name is</p>
         <p class="text-primary-500 text-4xl align-middle font-bold">
           Austin Hackett
@@ -13,13 +13,15 @@
           >
         </p>
         <p>
-          currently building applications with
+          I'm currently building applications with
           <span class="text-primary-500 font-bold">Javascript</span>
           and
           <span class="text-primary-500 font-bold">Python</span>
         </p>
-        <a class="bg-green-500 hover:bg-purple-700 text-white py-2 px-4 rounded"
-          >See My Work</a
+        <nuxt-link
+          to="/portfolio"
+          class="bg-green-500 hover:bg-purple-700 text-white py-2 px-4 rounded w-1/3 text-center"
+          >See My Work</nuxt-link
         >
       </div>
       <img
