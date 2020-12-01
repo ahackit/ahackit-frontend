@@ -1,34 +1,34 @@
 <template>
-  <div class="container mx-auto text-center">
-    <h1 class="text-6xl">Under construction</h1>
+  <div class="xl:container mx-auto flex-column justify-around">
+    <div class="flex justify-between space-x-4">
+      <div class="w-1/3">
+        <h1 class="text-2xl text-center mb-4">Web Applications</h1>
+        <div class="flex flex-col space-y-4">
+          <Card></Card>
+          <Card></Card>
+          <Card></Card>
+        </div>
+      </div>
+      <div class="w-1/3">
+        <h1 class="text-2xl text-center mb-4">Open Source Projects</h1>
+        <div class="flex flex-col space-y-4">
+          <Card></Card>
+        </div>
+      </div>
+      <div class="w-1/3">
+        <h1 class="text-2xl text-center mb-4">Games</h1>
+        <div class="flex flex-col space-y-4">
+          <Card></Card>
+        </div>
+      </div>
+    </div>
   </div>
-  <!-- <div class="flex space-x-8 justify-center">
-      <TechIcon tech-title="Django" img-src="djangoicon"></TechIcon>
-      <TechIcon tech-title="Vue" img-src="vueicon"></TechIcon>
-      <TechIcon tech-title="Nuxt" img-src="nuxticon"></TechIcon>
-      <TechIcon tech-title="Tailwind" img-src="tailwindicon"></TechIcon>
-      <TechIcon tech-title="Postgres" img-src="postgresicon"></TechIcon>
-      <TechIcon tech-title="Docker" img-src="dockericon"></TechIcon>
-      <TechIcon tech-title="Kubernetes" img-src="k8icon"></TechIcon>
-      <TechIcon tech-title="AWS" img-src="awsicon"></TechIcon>
-    </div> -->
-  <!-- <h1 class="text-2xl text-center">Web Applications</h1>
-    <div class="mt-12 grid gap-5 max-w-lg mx-auto lg:grid-cols-3 lg:max-w-none">
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
-    </div>
-    <h1 class="mt-12 text-2xl text-center">Tools</h1>
-    <div class="mt-12 grid gap-5 max-w-lg mx-auto lg:grid-cols-3 lg:max-w-none">
-      <Card></Card>
-    </div>
-  </div> -->
 </template>
 
 <script>
-// import Card from '@/components/Card'
+import Card from '@/components/Card'
 export default {
-  // components: { Card },
+  components: { Card },
 }
 </script>
 
