@@ -27,21 +27,21 @@ jobs:
           root: .
           paths:
             - .
-  test:
-    working_directory: ~/repo
-    docker:
-      - image: circleci/node:10.16.3
-    steps:
-      - setup_remote_docker:
-          docker_layer_caching: false
-      - attach_workspace:
-          at: ~/repo
-      - restore_cache:
-          key: dependency-cache-{{ checksum "package-lock.json" }}
-      - run:
-          name: test
-          command: |
-            npm run test
+  # test:
+  #   working_directory: ~/repo
+  #   docker:
+  #     - image: circleci/node:10.16.3
+  #   steps:
+  #     - setup_remote_docker:
+  #         docker_layer_caching: false
+  #     - attach_workspace:
+  #         at: ~/repo
+  #     - restore_cache:
+  #         key: dependency-cache-{{ checksum "package-lock.json" }}
+  #     - run:
+  #         name: test
+  #         command: |
+  #           npm run test
   deploy:
     working_directory: ~/repo
     docker:
@@ -69,13 +69,13 @@ workflows:
   build-test-deploy:
     jobs:
       - build
-      - test:
-          requires:
-            - build
+      # - test:
+      #     requires:
+      #       - build
       - deploy:
           filters:
             branches:
               only: master
           requires:
             - build
-            - test
+            # - test
