@@ -20,7 +20,12 @@
           <span class="text-primary-500 font-bold">Javascript</span>,
           <span class="text-primary-500 font-bold">Python</span>
           <br />
-          and a whole lot of other things!
+          and a whole lot of other things at
+          <a
+            class="text-primary-500 hover:text-gray-500 font-bold"
+            href="https://www.hirelofty.com"
+            >Lofty</a
+          >!
         </p>
         <p class="text-2xl">
           I'm also a
@@ -32,7 +37,14 @@
           I like to build games and art in
           <span class="text-primary-500 font-bold">Unity</span>,
           <span class="text-primary-500 font-bold">Aesprite</span>, and
-          <span class="text-primary-500 font-bold">C#</span>!
+          <span class="text-primary-500 font-bold">C#</span>.
+          <br />
+          I document it all on
+          <a
+            class="text-primary-500 hover:text-gray-500 font-bold"
+            href="https://www.hirelofty.com"
+            >Youtube</a
+          >!
         </p>
       </div>
       <img
