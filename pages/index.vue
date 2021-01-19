@@ -15,7 +15,7 @@
             >Full Stack Software Engineer</span
           >
         </p>
-        <p class="ml-4">
+        <p>
           I'm currently building applications with
           <span class="text-primary-500 font-bold">Javascript</span>,
           <span class="text-primary-500 font-bold">Python</span>
@@ -25,25 +25,6 @@
             class="text-primary-500 hover:text-gray-500 font-bold"
             href="https://www.hirelofty.com"
             >Lofty</a
-          >!
-        </p>
-        <p class="text-2xl">
-          I'm also a
-          <span class="text-primary-500 font-bold"
-            >Hobbyist Indie Game Dev</span
-          >
-        </p>
-        <p class="ml-4">
-          I like to build games and art in
-          <span class="text-primary-500 font-bold">Unity</span>,
-          <span class="text-primary-500 font-bold">Aesprite</span>, and
-          <span class="text-primary-500 font-bold">C#</span>.
-          <br />
-          I document it all on
-          <a
-            class="text-primary-500 hover:text-gray-500 font-bold"
-            href="https://www.hirelofty.com"
-            >Youtube</a
           >!
         </p>
       </div>
@@ -56,7 +37,7 @@
     <div class="flex justify-center mt-8">
       <nuxt-link
         to="/portfolio"
-        class="bg-green-500 hover:bg-purple-700 text-white py-2 px-4 rounded w-1/3 text-center"
+        class="bg-green-500 hover:bg-purple-700 text-gray-800 hover:text-white py-2 px-4 rounded w-1/3 text-center font-bold"
         >See My Work</nuxt-link
       >
     </div>

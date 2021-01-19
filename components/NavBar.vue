@@ -16,17 +16,12 @@
               class="font-medium text-primary-500 hover:text-gray-500 transition duration-150 ease-in-out"
               >Portfolio</nuxt-link
             >
-            <nuxt-link
-              class="font-medium text-primary-500 hover:text-gray-500 transition duration-150 ease-in-out"
-              to="/games"
-            >
-              Games
-            </nuxt-link>
-            <nuxt-link
+            <!-- <nuxt-link
               to="/blog"
               class="font-medium text-primary-500 hover:text-gray-500 transition duration-150 ease-in-out"
               >Blog</nuxt-link
-            ><nuxt-link
+            > -->
+            <nuxt-link
               class="font-medium text-primary-500 hover:text-gray-500 transition duration-150 ease-in-out"
               to="/contact"
             >

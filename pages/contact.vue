@@ -4,7 +4,7 @@
     <div class="mt-4">
       <a
         href="mailto:ahackit@gmail.com"
-        class="bg-green-500 hover:bg-purple-700 text-white py-2 px-4 rounded w-1/3 text-center mt-4"
+        class="bg-green-500 hover:bg-purple-700 text-gray-800 hover:text-white font-bold py-2 px-4 rounded w-1/3 text-center mt-4"
         >Click to send me an email!</a
       >
     </div>
