@@ -2,7 +2,7 @@
   <div class="flex">
     <a
       href="https://twitter.com/ahackit"
-      class="ml-6 text-primary-500 hover:text-gray-500"
+      class="text-primary-500 hover:text-gray-500"
     >
       <span class="sr-only">Twitter</span>
       <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
