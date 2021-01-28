@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col rounded-lg shadow-lg overflow-hidden w-1/3">
+  <div class="flex flex-col rounded-lg shadow-lg overflow-hidden m-4 md:w-1/3">
     <a :href="'google.com'">
       <div class="flex-shrink-0">
         <img class="h-48 w-full object-cover" :src="imgLocation" alt />
