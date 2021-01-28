@@ -92,11 +92,13 @@
           <nuxt-link
             to="/"
             class="block mb-2 font-medium text-center text-primary-500 hover:text-gray-500 transition duration-150 ease-in-out"
+            @click.native="openMobileMenu"
             >Home</nuxt-link
           >
           <nuxt-link
             to="/portfolio"
             class="block mb-2 font-medium text-center text-primary-500 hover:text-gray-500 transition duration-150 ease-in-out"
+            @click.native="openMobileMenu"
             >Portfolio</nuxt-link
           >
           <!-- <nuxt-link
@@ -107,6 +109,7 @@
           <nuxt-link
             class="block mb-2 font-medium text-center text-primary-500 hover:text-gray-500 transition duration-150 ease-in-out"
             to="/contact"
+            @click.native="openMobileMenu"
           >
             Contact
           </nuxt-link>

@@ -8,7 +8,7 @@
       </p>
     </div>
     <div class="flex items-center justify-center flex-grow space-x-5 mt-8">
-      <div class="flex flex-col space-y-1">
+      <div class="text-center md:flex md:flex-col md:space-y-1">
         <p class="text-2xl">
           I'm a
           <span class="text-primary-500 font-bold"
